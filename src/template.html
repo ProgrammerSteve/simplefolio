@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Steven Matthew Bautista | Junior Full Stack Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Steven Bautista | Junior Full Stack Developer" />
 
     <!-- Required librarys -->
     <link
@@ -46,9 +46,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Steven Bautista</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Junior Full Stack Developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -71,7 +71,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/Linked_in_profile_photo.jpg"
                 alt="Profile Image"
               />
             </div>
@@ -79,11 +79,17 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                Engineer turned programmer, I decided to purse web development 
+                due to the abundance of opportunity and growth. In college I 
+                really enjoyed programming for numerical computations in either 
+                python or matlab. I am now making the decision to change career 
+                paths and learn everything there is to know about web development. 
+                I am now focusing on making apps using the react js framework in 
+                combination with next js. I spent the last year studying a variety 
+                of youtube videos and Udemy courses to master my craft.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I eventually want to learn more about Dev Ops and cloud native applications.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -112,21 +118,20 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Smartbrain App</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A react app that utilizes the clarifai API to detect faces in photos.
+                    Simply input the image url to activate. A ranking and badge(utilizes AWS lambda) is displayed to signify the number of uses.
+                    The information is kept in a postgresql database on AWS. The frontend is react while the backend is nodejs.
+                    The frontend code is deployed on AWS S3 while the backend is in an EC2 instance.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="http://www.smartbrainfrontend.io.s3-website-us-east-1.amazonaws.com"
                 >
                   See Live
                 </a>
@@ -134,21 +139,31 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/ProgrammerSteve/facerecognitionbrain-Frontend"
                 >
-                  Source Code
+                  Frontend Code
                 </a>
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/ProgrammerSteve/facerecognitionbrain-Backend"
+              >
+                Backend Code
+              </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                    <a href="http://www.smartbrainfrontend.io.s3-website-us-east-1.amazonaws.com" target="_blank">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/friends.jpg"
+                      />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -160,21 +175,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Mandarin HSK1 Training</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A react app that uses a psuedorandom number generator to continously display flash cards
+                    for HSK level 1 vocabulary. Inputs are handled by a reducer made with react hooks.
+                    There are 7 variables in the state for the main functional component.
+                    Input choice positions are randomized in the form element.
+
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://mandarin-hsk1-training.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -182,7 +197,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/ProgrammerSteve/chinese_language_training"
                 >
                   Source Code
                 </a>
@@ -192,11 +207,13 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                    <a  href="https://mandarin-hsk1-training.herokuapp.com/" target="_blank">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/hskproject.jpg"
+                      />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -208,21 +225,22 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">React Square Game</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This app has 6 levels where your goal is to get the red circle
+                    to reach the yellow square while avoiding the purple square.
+                    React motion library is used to move the div element, useContext shares
+                    state between the game and score cards, useEffect/useRef is used 
+                    to keep track of the time per stage, and the useEffect hook keeps 
+                    track of any changes to the state in order to progress the game.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://reactsquaregame.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -230,7 +248,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/ProgrammerSteve/reactsquaregame"
                 >
                   Source Code
                 </a>
@@ -240,11 +258,13 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                    <a href="https://reactsquaregame.herokuapp.com/" target="_blank">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/squaregame.jpg"
+                      />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -261,12 +281,15 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">
+            Stevenmb1995@gmail.com<br/>
+            (956)639-0218<br/>
+          </p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
+            href="mailto:stevenmb1995@gmail.com"
             >Call to Action</a
           >
         </div>
@@ -281,16 +304,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
+          <!-- <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
-          </a>
+          </a> -->
           <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-codepen fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/steven-bautista-04b283159/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/ProgrammerSteve" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
