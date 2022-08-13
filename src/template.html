@@ -390,18 +390,17 @@
                 <h3 class="project-wrapper__text-title">Mandarin HSK1 Training</h3>
                 <div>
                   <p class="mb-4">
-                    A react app that uses a psuedorandom number generator to continously display flash cards
-                    for HSK level 1 vocabulary. Inputs are handled by a reducer made with react hooks.
-                    There are 7 variables in the state for the main functional component.
-                    Input choice positions are randomized in the form element.
-
+                    A react app that uses a random number to continously display flash cards
+                    for HSK level 1 vocabulary. Context is used to share information between components.
+                    The backend is an express app that accesses a MongoDB server to retrieve the chinese character list. 
+                    Tailwind CSS is used to style the components
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://mandarin-hsk1-training.herokuapp.com/"
+                  href="https://singular-daffodil-96c4a5.netlify.app/"
                 >
                   See Live
                 </a>
@@ -411,19 +410,28 @@
                   class="cta-btn text-color-main"
                   href="https://github.com/ProgrammerSteve/chinese_language_training"
                 >
-                  Source Code
+                  Frontend Code
                 </a>
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/ProgrammerSteve/charactersbackend"
+              >
+                Backend Code
+              </a>
+
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a  href="https://mandarin-hsk1-training.herokuapp.com/" target="_blank">
+                    <a  href="https://singular-daffodil-96c4a5.netlify.app/" target="_blank">
                       <img
                         alt="Project Image 2"
                         class="img-fluid"
-                        src="assets/hsk.jpg"
+                        src="assets/hskpic.jpg"
                       />
                     </a>
                   </div>
