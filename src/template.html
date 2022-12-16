@@ -20,9 +20,15 @@
     <!-- Put here your site title -->
     <title>Steven Matthew Bautista | Junior Full Stack Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="ProgrammerSteve, Steven Bautista, React, Javascript, HTML, CSS" />
+    <meta
+      name="keywords"
+      content="ProgrammerSteve, Steven Bautista, React, Javascript, HTML, CSS"
+    />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Steven Bautista | Junior Full Stack Developer" />
+    <meta
+      name="description"
+      content="Steven Bautista | Junior Full Stack Developer"
+    />
 
     <!-- Required librarys -->
     <link
@@ -30,18 +36,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GT5YVYNMMF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GT5YVYNMMF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GT5YVYNMMF');
-</script>
-
-
+      gtag("config", "G-GT5YVYNMMF");
+    </script>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
@@ -73,34 +81,6 @@
     </div>
     <!-- /END Hero Section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
@@ -121,16 +101,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Engineer turned programmer, I decided to pursue web development 
-                due to the abundance of opportunity and growth. I am making the life-changing decision to change career 
-                paths and become a web developer. 
-                My main focus is on making apps using the React js in 
+                Engineer turned programmer, I decided to pursue web development
+                due to the abundance of opportunity and growth. I am making the
+                life-changing decision to change career paths and become a web
+                developer. My main focus is on making apps using the React js in
                 combination with Next js.
               </p>
               <p class="about-wrapper__info-text">
-                I eventually want to learn about Dev Ops and cloud native applications. 
-                The next step in my career is to gain the experience to become a senior developer 
-                and grow my skills.
+                I eventually want to learn about Dev Ops and cloud native
+                applications. The next step in my career is to gain the
+                experience to become a senior developer and grow my skills.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -149,57 +129,11 @@
     </section>
     <!-- /END About Section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           <!-- Each .row is a project -->
           <!-- <div class="row">
@@ -257,21 +191,19 @@
           </div> -->
           <!-- /END Project -->
 
-
-
-
-
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">d3.js regression plot</h3>
+                <h3 class="project-wrapper__text-title">
+                  d3.js regression plot
+                </h3>
                 <div>
                   <p class="mb-4">
-                    A Next.js app that uses the d3.js library to construct a scatter plot with a linear regression line. 
-                    Uses redux to share information between the graph and the points listed. Css is done partly by 
-                    using stylized components.
+                    A Next.js app that uses the d3.js library to construct a
+                    scatter plot with a linear regression line. Uses redux to
+                    share information between the graph and the points listed.
+                    Css is done partly by using stylized components.
                   </p>
                 </div>
                 <a
@@ -296,7 +228,10 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a href="https://d3regressionplot.vercel.app/" target="_blank">
+                    <a
+                      href="https://d3regressionplot.vercel.app/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image"
                         class="img-fluid"
@@ -309,11 +244,50 @@
             </div>
           </div>
           <!-- /END Project -->
-
-
-
-
-
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Nextjs Zayarenovations
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    A Typescript/Next.js app made for a small home renovation
+                    business. Some of the libraries used on the site is
+                    TailwindCSS and vercel serverless functions. A domain name
+                    was bought and set up to connect with the website. Using the
+                    Lighthouse plugin, I was able to improve the speed and
+                    functionality of the website.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://www.zayarenovations.com/"
+                >
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <a href="https://www.zayarenovations.com/" target="_blank">
+                      <img
+                        alt="Zayarenovations-Image"
+                        class="img-fluid"
+                        src="assets/ZayaNextJs.jpg"
+                      />
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <div class="row">
@@ -322,8 +296,12 @@
                 <h3 class="project-wrapper__text-title">Drawing App</h3>
                 <div>
                   <p class="mb-4">
-                    A Nextjs app that utilizes the canvas element for drawing. Stylized components were used for the navigation component. Redux 
-                    was used to share information from the inputs to the canvas context to allow for customization. The app was deployed using vercel and currently only works on the desktop.
+                    A Nextjs app that utilizes the canvas element for drawing.
+                    Stylized components were used for the navigation component.
+                    Redux was used to share information from the inputs to the
+                    canvas context to allow for customization. The app was
+                    deployed using vercel and currently only works on the
+                    desktop.
                   </p>
                 </div>
                 <a
@@ -334,8 +312,6 @@
                 >
                   See Live
                 </a>
-
-
 
                 <a
                   rel="noreferrer"
@@ -351,7 +327,10 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a href="https://drawingapp-beryl.vercel.app/" target="_blank">
+                    <a
+                      href="https://drawingapp-beryl.vercel.app/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image"
                         class="img-fluid"
@@ -365,20 +344,6 @@
           </div>
           <!-- /END Project -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -386,11 +351,14 @@
                 <h3 class="project-wrapper__text-title">Ionic React App</h3>
                 <div>
                   <p class="mb-4">
-                    An Ionic application I made for my friend's small renovation business. Written in Typescript, 
-                    the site has a form that uses regular expressions to validate input from users. The backend is 
-                    a python flask app that sends the data as an email to the owner. The flask app was deployed as 
-                    a docker container onto google cloud run. The site itself is deployed on firebase. The app can 
-                    be made into mobile app for IOS and Android.
+                    An Ionic application I made for my friend's small renovation
+                    business. Written in Typescript, the site has a form that
+                    uses regular expressions to validate input from users. The
+                    backend is a python flask app that sends the data as an
+                    email to the owner. The flask app was deployed as a docker
+                    container onto google cloud run. The site itself is deployed
+                    on firebase. The app can be made into mobile app for IOS and
+                    Android.
                   </p>
                 </div>
                 <a
@@ -410,13 +378,13 @@
                   Frontend Code
                 </a>
                 <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn text-color-main"
-                href="https://github.com/ProgrammerSteve/RenovationSite-Backend"
-              >
-                Backend Code
-              </a>
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ProgrammerSteve/RenovationSite-Backend"
+                >
+                  Backend Code
+                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -437,23 +405,6 @@
           </div>
           <!-- /END Project -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -461,10 +412,13 @@
                 <h3 class="project-wrapper__text-title">React Assessment</h3>
                 <div>
                   <p class="mb-4">
-                    Utilizese redux-toolkit and the createAsyncThunk function to make an API call to display
-                     a searchable list of profile cards. Tags can also be added and then searched 
-                    through. The point of the asssessment was to test my frontend skills. The site was made to be responsive 
-                    application that will adjust to window size. A serverless function deployed on vercel acts as the backend.
+                    Utilizese redux-toolkit and the createAsyncThunk function to
+                    make an API call to display a searchable list of profile
+                    cards. Tags can also be added and then searched through. The
+                    point of the asssessment was to test my frontend skills. The
+                    site was made to be responsive application that will adjust
+                    to window size. A serverless function deployed on vercel
+                    acts as the backend.
                   </p>
                 </div>
                 <a
@@ -489,7 +443,10 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a href="https://programmersteve.github.io/assessment-1/" target="_blank">
+                    <a
+                      href="https://programmersteve.github.io/assessment-1/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image"
                         class="img-fluid"
@@ -503,28 +460,21 @@
           </div>
           <!-- /END Project -->
 
-
-
-
-
-
-
-
-
-
-
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Mandarin HSK1 Training</h3>
+                <h3 class="project-wrapper__text-title">
+                  Mandarin HSK1 Training
+                </h3>
                 <div>
                   <p class="mb-4">
-                    A react app that uses a random number to continously display flash cards
-                    for HSK level 1 vocabulary. Context is used to share information between components.
-                    The backend is an express app that accesses a MongoDB server to retrieve the chinese character list. 
-                    Tailwind CSS is used to style the components
+                    A react app that uses a random number to continously display
+                    flash cards for HSK level 1 vocabulary. Context is used to
+                    share information between components. The backend is an
+                    express app that accesses a MongoDB server to retrieve the
+                    chinese character list. Tailwind CSS is used to style the
+                    components
                   </p>
                 </div>
                 <a
@@ -544,21 +494,23 @@
                   Frontend Code
                 </a>
                 <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn text-color-main"
-                href="https://github.com/ProgrammerSteve/charactersbackend"
-              >
-                Backend Code
-              </a>
-
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ProgrammerSteve/charactersbackend"
+                >
+                  Backend Code
+                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a  href="https://singular-daffodil-96c4a5.netlify.app/" target="_blank">
+                    <a
+                      href="https://singular-daffodil-96c4a5.netlify.app/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image 2"
                         class="img-fluid"
@@ -572,82 +524,65 @@
           </div>
           <!-- /END Project -->
 
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Crwn Clothing Ecommerce App
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    A react app made while following a udemy course. This site
+                    utilizes Firebase admin to handle users loging in and out of
+                    the site. Firebase firestore is used to hold the data of
+                    items listed. Stylized components are used for the styling
+                    and Redux/Redux-Saga is used to share information between
+                    components. Stripe is used as a payment system to carry out
+                    transactions.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://teal-pastelito-882485.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ProgrammerSteve/crwn-clothing"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <a
+                      href="https://teal-pastelito-882485.netlify.app/"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/crwn.jpg"
+                      />
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
-
-
-
-
-                    <!-- Each .row is a project -->
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-12">
-                        <div class="project-wrapper__text">
-                          <h3 class="project-wrapper__text-title">Crwn Clothing Ecommerce App</h3>
-                          <div>
-                            <p class="mb-4">
-                              A react app made while following a udemy course. This site utilizes Firebase admin to handle  
-                              users loging in and out of the site. Firebase firestore is used to hold the data of items listed. 
-                              Stylized components are used for the styling and Redux/Redux-Saga is used to share information between 
-                              components. Stripe is used as a payment system to carry out transactions.
-                            </p>
-                          </div>
-                          <a
-                            rel="noreferrer"
-                            target="_blank"
-                            class="cta-btn cta-btn--hero"
-                            href="https://teal-pastelito-882485.netlify.app/"
-                          >
-                            See Live
-                          </a>
-                          <a
-                            rel="noreferrer"
-                            target="_blank"
-                            class="cta-btn text-color-main"
-                            href="https://github.com/ProgrammerSteve/crwn-clothing"
-                          >
-                            Source Code
-                          </a>
-          
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-12">
-                        <div class="project-wrapper__image">
-                          <a rel="noreferrer" href="#!" target="_blank">
-                            <div data-tilt class="thumbnail rounded js-tilt">
-                              <a href="https://teal-pastelito-882485.netlify.app/" target="_blank">
-                                <img
-                                  alt="Project Image"
-                                  class="img-fluid"
-                                  src="assets/crwn.jpg"
-                                />
-                              </a>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /END Project -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-         <!-- Each .row is a project -->
-         <!-- <div class="row">
+          <!-- Each .row is a project -->
+          <!-- <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Generic Firebase App</h3>
@@ -694,14 +629,8 @@
             </div>
           </div>
         </div> -->
-        <!-- /END Project -->
-      
-    
+          <!-- /END Project -->
 
-
-
-
-          
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -709,12 +638,13 @@
                 <h3 class="project-wrapper__text-title">React Square Game</h3>
                 <div>
                   <p class="mb-4">
-                    This app has 6 levels where your goal is to get the red circle
-                    to reach the yellow square while avoiding the purple square.
-                    React motion library is used to move the div element, useContext shares
-                    state between the game and score cards, useEffect/useRef is used 
-                    to keep track of the time per stage, and the useEffect hook keeps 
-                    track of any changes to the state in order to progress the game.
+                    This app has 6 levels where your goal is to get the red
+                    circle to reach the yellow square while avoiding the purple
+                    square. React motion library is used to move the div
+                    element, useContext shares state between the game and score
+                    cards, useEffect/useRef is used to keep track of the time
+                    per stage, and the useEffect hook keeps track of any changes
+                    to the state in order to progress the game.
                   </p>
                 </div>
                 <a
@@ -739,7 +669,10 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a href="https://programmersteve.github.io/reactsquaregame/" target="_blank">
+                    <a
+                      href="https://programmersteve.github.io/reactsquaregame/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image 3"
                         class="img-fluid"
@@ -753,11 +686,6 @@
           </div>
           <!-- /END Project -->
 
-
-
-
-
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -765,14 +693,14 @@
                 <h3 class="project-wrapper__text-title">Robofriends Testing</h3>
                 <div>
                   <p class="mb-4">
-                    An app of functional and class components made throughout the 
-                    udemy course that utilizes jest for 
-                    unit testing react components with enzyme. The application also 
-                    makes use of redux and redux-thunk for state management and is a 
-                    progressive web app. Making use of an api call, the profile card 
-                    information is uploaded and can be searched through using the 
-                    search bar at the top. The counter button was added only to show 
-                    how to test it on jest. 
+                    An app of functional and class components made throughout
+                    the udemy course that utilizes jest for unit testing react
+                    components with enzyme. The application also makes use of
+                    redux and redux-thunk for state management and is a
+                    progressive web app. Making use of an api call, the profile
+                    card information is uploaded and can be searched through
+                    using the search bar at the top. The counter button was
+                    added only to show how to test it on jest.
                   </p>
                 </div>
                 <a
@@ -797,7 +725,10 @@
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
-                    <a href="https://programmersteve.github.io/robofriends-test/" target="_blank">
+                    <a
+                      href="https://programmersteve.github.io/robofriends-test/"
+                      target="_blank"
+                    >
                       <img
                         alt="Project Image 4"
                         class="img-fluid"
@@ -810,73 +741,10 @@
             </div>
           </div>
           <!-- /END Project -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -884,8 +752,8 @@
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            Stevenmb1995@gmail.com<br/>
-            (956)639-0218<br/>
+            Stevenmb1995@gmail.com<br />
+            (956)639-0218<br />
           </p>
           <a
             rel="noreferrer"
@@ -898,33 +766,6 @@
       </div>
     </section>
     <!-- /END Contact Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
@@ -939,10 +780,18 @@
           <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-codepen fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/steven-bautista-04b283159/" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/steven-bautista-04b283159/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://github.com/ProgrammerSteve" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/ProgrammerSteve"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
